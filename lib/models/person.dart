@@ -14,13 +14,13 @@ class Person {
     switch (calcIMC()) {
       case <= 18.5:
         return 'Abaixo do peso';
-      case >= 18.6 && <= 24.9:
+      case >= 18.6 && < 25:
         return 'Peso ideal';
-      case >= 25.0 && <= 29.9:
+      case >= 25.0 && < 30:
         return 'Levemente acima do peso';
-      case >= 30.0 && <= 34.9:
+      case >= 30.0 && < 35:
         return 'Obesidade grau 1';
-      case >= 35.0 && <= 39.9:
+      case >= 35.0 && < 40:
         return 'Obesidade grau 2 (Severa)';
       case >= 40:
         return 'Obesidade grau 3 (Mórbida)';
